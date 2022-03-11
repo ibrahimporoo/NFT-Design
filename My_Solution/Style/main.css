@@ -1,0 +1,89 @@
+/* Start Variables */
+:root {
+	--main-BG: hsl(217, 54%, 11%);
+	--card-BG: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+	--White: hsl(0, 0%, 100%);
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+}
+/* Start Variables */
+/* Start Global Rules */
+body {
+	font-family: "Outfit", sans-serif;
+	font-size: 18px;
+}
+/* Start Global Rules */
+body {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	position: relative;
+}
+.card {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card .container {
+	width: 270px;
+	background-color: var(--card-BG);
+	border-radius: 26px;
+	color: var(--White);
+	padding: 20px;
+}
+.card .bg-holder {
+	border-radius: 26px;
+	overflow: hidden;
+}
+.card .bg-holder img {
+	width: 100%;
+}
+.card .container .text h2 {
+	font-size: 1.5em;
+}
+.card .container .text p {
+	font-size: 1em;
+	opacity: 0.6;
+}
+.card .container .info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--line);
+	margin-bottom: 10px;
+}
+.card .container .info h4 {
+	font-size: smaller;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card .container .info h4:last-child {
+	opacity: 0.7;
+}
+.card .container .info h4 svg {
+	margin-right: 5px;
+}
+.card .container .creat {
+	display: flex;
+	align-items: center;
+}
+.card .container .creat .image {
+	width: 40px;
+	height: 40px;
+	border: 2px solid var(--White);
+	border-radius: 50%;
+}
+.card .container .creat .image img {
+	width: 100%;
+}
+.card .container .creat p {
+	padding-left: 15px;
+	font-size: 0.9em;
+}
+.card .container .creat p span {
+	opacity: 0.6;
+}
